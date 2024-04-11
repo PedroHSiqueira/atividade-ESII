@@ -26,12 +26,9 @@ function mult(v1, v2) {
 }
 
 // retorna o valor da raiz quadrada do valor recebido por parâmetro
-function square(v1) {}
-
-console.log(sum(5, 5));
-console.log(mult(7,5))
-// retorna o valor da raiz quadrada do valor recebido por parâmetro
-function square(v1) {}
+function square(v1) {
+  return Math.sqrt(v1);
+}
 
 console.log(`
    ______________________________
@@ -45,7 +42,7 @@ console.log(`
     |                            |.
     |    4 - Dividir             |.
     |                            |.
-    |                            |.
+    |    5 - Raiz Quadrada       |.
     |                            |.
     |                            |.
     |                            |.
@@ -70,5 +67,8 @@ switch (option) {
   case 3 :
     console.log(
       `A multiplicação de ${firstNumber} e ${secondNumber} é : ${mult(firstNumber, secondNumber)}`);
+      break;
+  case 5 :
+    console.log(`A raiz quadrada de ${firstNumber} é ${square(firstNumber)}`);
       break;
 }
