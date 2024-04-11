@@ -9,7 +9,12 @@ function sum(v1, v2) {
 }
 
 // retorna o valor da subtração entre os dois parâmetros
-function sub(v1, v2) {}
+function sub(v1, v2) {
+  const value1 = Number(v1);
+  const value2 = Number(v2);
+
+  return value1 - value2;
+}
 
 // retorna o valor da divisão entre os dois parâmetros
 function div(v1, v2) {}
@@ -58,7 +63,12 @@ switch (option) {
     console.log(
       `A soma de ${firstNumber} e ${secondNumber} é : ${sum(firstNumber, secondNumber)}`);
     break;
+  case 2 :
+    console.log(
+      `A subtração de ${firstNumber} e ${secondNumber} é : ${sub(firstNumber, secondNumber)}`);
+      break;
   case 3 :
     console.log(
       `A multiplicação de ${firstNumber} e ${secondNumber} é : ${mult(firstNumber, secondNumber)}`);
+      break;
 }
