@@ -52,8 +52,15 @@ console.log(`
 `);
 
 const option = Number(prompt("Escolha uma Operação: "));
-const firstNumber = Number(prompt("Primeiro Numero: "));
-const secondNumber = Number(prompt("Segundo Numero: "));
+let firstNumber;
+let secondNumber;
+
+if(option == 5){
+  firstNumber = Number(prompt("Numero escolhido: "));
+}else{
+  firstNumber = Number(prompt("Primeiro Numero: "));
+  secondNumber = Number(prompt("Segundo Numero: "));
+}
 
 switch (option) {
   case 1:
