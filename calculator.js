@@ -30,6 +30,10 @@ function square(v1) {
   return Math.sqrt(v1);
 }
 
+function percentage(v1, v2) {
+  return (v1 / 100) * v2;
+}
+
 console.log(`
    ______________________________
  /  \                             \.
@@ -44,7 +48,7 @@ console.log(`
     |                            |.
     |    5 - Raiz Quadrada       |.
     |                            |.
-    |                            |.
+    |    6 - Porcentagem         |.
     |                            |.
     |   _________________________|___
     |  /                            /.
@@ -78,4 +82,8 @@ switch (option) {
   case 5 :
     console.log(`A raiz quadrada de ${firstNumber} é ${square(firstNumber)}`);
       break;
+  case 6 :
+    console.log(`${firstNumber}% de ${secondNumber} é : ${percentage(firstNumber, secondNumber)}`);
+      break;
+
 }
