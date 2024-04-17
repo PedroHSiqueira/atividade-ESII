@@ -59,30 +59,32 @@ const option = Number(prompt("Escolha uma Operação: "));
 let firstNumber;
 let secondNumber;
 
-if(option == 5){
-  firstNumber = Number(prompt("Numero escolhido: "));
-}else{
-  firstNumber = Number(prompt("Primeiro Numero: "));
-  secondNumber = Number(prompt("Segundo Numero: "));
-}
-
 switch (option) {
   case 1:
+    firstNumber = Number(prompt("Primeiro Numero: "));
+    secondNumber = Number(prompt("Segundo Numero: "));
     console.log(
       `A soma de ${firstNumber} e ${secondNumber} é : ${sum(firstNumber, secondNumber)}`);
     break;
   case 2 :
+    firstNumber = Number(prompt("Primeiro Numero: "));
+    secondNumber = Number(prompt("Segundo Numero: "));
     console.log(
       `A subtração de ${firstNumber} e ${secondNumber} é : ${sub(firstNumber, secondNumber)}`);
       break;
   case 3 :
+    firstNumber = Number(prompt("Primeiro Numero: "));
+    secondNumber = Number(prompt("Segundo Numero: "));
     console.log(
       `A multiplicação de ${firstNumber} e ${secondNumber} é : ${mult(firstNumber, secondNumber)}`);
       break;
   case 5 :
+    firstNumber = Number(prompt("Primeiro Numero: "));
     console.log(`A raiz quadrada de ${firstNumber} é ${square(firstNumber)}`);
       break;
   case 6 :
+    firstNumber = Number(prompt("Percentual ( % ): "));
+    secondNumber = Number(prompt("Valor total: "));
     console.log(`${firstNumber}% de ${secondNumber} é : ${percentage(firstNumber, secondNumber)}`);
       break;
 
