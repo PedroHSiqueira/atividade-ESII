@@ -18,4 +18,7 @@ $ node calculator.js
 ## 🤝 Contribuídores
 
 <a href="https://github.com/PedroHSiqueira"><img src="https://github.com/PedroHSiqueira.png" width="45" height="45"></a> &nbsp;
-
+<a href="https://github.com/uPedroLima11"><img src="https://github.com/uPedroLima11.png" width="45" height="45"></a> &nbsp;
+<a href="https://github.com/marcelolemes1340"><img src="https://github.com/marcelolemes1340.png" width="45" height="45"></a> &nbsp;
+<a href="https://github.com/HiveZ4"><img src="https://github.com/HiveZ4.png" width="45" height="45"></a> &nbsp;
+<a href="https://github.com/Eduardo-Amarante"><img src="https://github.com/Eduardo-Amarante.png" width="45" height="45"></a> &nbsp;
