@@ -17,7 +17,12 @@ function sub(v1, v2) {
 }
 
 // retorna o valor da divisão entre os dois parâmetros
-function div(v1, v2) {}
+function div(v1, v2) {
+  const value1 = Number(v1);
+  const value2 = Number(v2);
+
+  return value1 / value2;
+}
 
 // retorna o valor da multiplicação entre os dois parâmetros
 function mult(v1, v2) {
@@ -77,6 +82,12 @@ switch (option) {
     secondNumber = Number(prompt("Segundo Numero: "));
     console.log(
       `A multiplicação de ${firstNumber} e ${secondNumber} é : ${mult(firstNumber, secondNumber)}`);
+      break;
+  case 4 :
+    firstNumber = Number(prompt("Primeiro Numero: "));
+    secondNumber = Number(prompt("Segundo Numero: "));
+    console.log(
+      `A divisão de ${firstNumber} e ${secondNumber} é : ${div(firstNumber, secondNumber)}`);
       break;
   case 5 :
     firstNumber = Number(prompt("Primeiro Numero: "));
